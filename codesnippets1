@@ -1,0 +1,40 @@
+This is my initial seed data to get my MONGO database for Peanut's BookShoppe up and going
+
+use PeanutsBookShoppe
+
+db.inventory.insert({
+isbn:"5234",
+title:"My Life as a Dog",
+author:"Peanut Bichon",
+description:"The World's Most Famous Dog talks about his Life as a Celeb",
+category:["Popular Culture", "Entertainment"],
+producttype:"Book",
+price:10,
+})
+
+book document:
+
+{
+isbn:"5234",
+title:"My Life as a Dog",
+author:"Peanut Bichon",
+description:"The World's Most Famous Dog talks about his Life as a Celeb",
+category:["Popular Culture", "Entertainment"],
+producttype:"Book",
+price:10,
+}
+
+db.customers.insertMany([
+{
+cname:"Mary",
+cid: 1
+},
+{
+cname:"Joe",
+cid: 2
+},
+{
+cname:"Bill",
+cid: 3
+},
+])
