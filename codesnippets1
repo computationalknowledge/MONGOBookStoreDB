@@ -1,3 +1,10 @@
+link to sample design document: https://www.dropbox.com/s/p6auxkjv3dx3jle/Mongo%20DB%20Planning%20Document.xlsx?dl=0
+
+Workflow:
+1. Make design document
+2. Write a few sample inserts for your starter document
+3. Make a Node.js Application using the MONGOOSE NPM Package.
+
 This is my initial seed data to get my MONGO database for Peanut's BookShoppe up and going
 
 use PeanutsBookShoppe
